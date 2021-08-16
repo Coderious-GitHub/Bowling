@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="background-image: url(&apos;/Assets/UI/Title.png&apos;); width: 50%; height: 50%; left: 25%; top: 2%; right: 25%; bottom: 25%;">
+        <ui:VisualElement style="background-image: url(&apos;/Assets/UI/Coderious Logo 640 White.png&apos;); width: 60%; height: 50%; left: 20%; top: 18%; right: 20%; bottom: 20%; position: relative;" />
+        <ui:Label text="Pro Bowling 2021&#10;" display-tooltip-when-elided="true" name="Label" style="left: 25%; top: 12%; right: 25%; bottom: 25%; width: 50%; height: 10%; justify-content: flex-start; align-items: center; -unity-text-align: upper-center; font-size: 48px; -unity-font: url(&apos;/Packages/com.unity.ui/PackageResources/Images/Roboto-Regular.ttf&apos;); color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+    <ui:VisualElement style="width: 60%; height: 50%; top: 30%; left: 20%; right: 25%; bottom: 25%;">
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" style="font-size: 48px; left: 25%; right: 25%; top: 15%; bottom: 25%; width: 50%; -unity-font: resource(&apos;Fonts &amp; Materials/LiberationSans&apos;); -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>
